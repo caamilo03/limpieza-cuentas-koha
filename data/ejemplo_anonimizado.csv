@@ -1,0 +1,21 @@
+borrowernumber,cardnumber,surname,firstname,email,emailpro,categorycode,userid
+1,biteca,biteca,Equipo Biteca,hcastillo@biteca.com,,STAFF,biteca
+2,11111111,GOMEZ,CARLOS,carlos.gomez@udea.edu.co,,ESPRE,carlos.gomez
+3,,MARTINEZ,LUCIA,lucia.martinez@udea.edu.co,,ESPRE,lucia.martinez
+4,22222222,RODRIGUEZ,PEDRO,pedro.rodriguez@udea.edu.co,,DOCEN,pedro.rodriguez
+5,22222222,LOPEZ,ANA,ana.lopez@udea.edu.co,,DOCEN,ana.lopez
+6,X33333333,PEREZ,MARIA,maria.perez@udea.edu.co,,ESPRE,maria.perez
+7,44444444X,CASTRO,JUAN,,juan.castro@udea.edu.co,ESPOS,juan.castro
+8,55555555,VARGAS,VARGAS,vargas.vargas@udea.edu.co,,ESPRE,vargas.vargas
+9,66666666,,,,,ESPRE,sin.nombre
+10,77777777,REYES,SOFIA,sofia.reyes@gmail.com,,DOCEN,sofia.reyes
+11,88888888,MORA,ANDRES,andres.mora@udea.edu.co,,PREIN,andres.mora
+12,99999999,SILVA,DIANA,diana.silva@udea.edu.co,,PREIN,diana.silva
+13,12345678,TORRES,LUIS,luis.torres@udea.edu.co,luis.torres@udea.edu.co,ESPRE,luis.torres
+14,87654321,RAMIREZ,VALENTINA,valentina.ramirez@udea.edu.co,,ESPOS,valentina.ramirez
+15,test01,test,test,test@test.com,,STAFF,test01
+16,NULL,PRUEBA,PRUEBA,prueba@udea.edu.co,,ESPRE,prueba
+17,11223344,HERRERA,NATALIA,sofia.reyes@gmail.com,,ESPRE,natalia.herrera
+18,99887766,OSPINA,CAMILO,camilo ospina@udea.edu.co,,ESPRE,camilo.ospina
+19,12345,GARCIA,ESTEBAN,esteban.garcia@udea.edu.co,,ESPRE,esteban.garcia
+20,55555555,admin,admin,admin@udea.edu.co,,STAFF,admin

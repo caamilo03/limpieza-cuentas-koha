@@ -1,0 +1,14 @@
+# Datos reales — NUNCA subir al repo
+Reporte-cuentas-ILMS-Koha.csv
+Tabla_categorias_cuentas-ILMS_Koha.csv
+data/Reporte-cuentas-ILMS-Koha.csv
+data/Tabla_categorias_cuentas-ILMS_Koha.csv
+
+# Outputs generados por el notebook
+output/*
+!output/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
