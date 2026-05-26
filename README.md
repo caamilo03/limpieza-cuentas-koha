@@ -36,18 +36,9 @@ Los CSV originales contienen datos personales (cédulas, nombres, correos) y **n
 Están alojados en una carpeta de Google Drive restringida a la comunidad UdeA:  
 📁 [limpieza-cuentas-koha en Drive](https://drive.google.com/drive/folders/1CvzJBGmVTG68cfW9dP4l_niE_SXJEm-g?usp=sharing)
 
-Para ejecutar el notebook necesitas una cuenta `@udea.edu.co` con acceso a esa carpeta.
+Para ejecutar el notebook se necesita una cuenta `@udea.edu.co` con acceso a esa carpeta.
 
 ---
-
-## Cómo ejecutar
-
-1. Haz clic en el badge **Open in Colab** de arriba.
-2. En la primera celda de código (`MODO`), verifica que el valor sea `'drive'`.
-3. Ajusta `RUTA_DRIVE` si tu Drive tiene los archivos en una ruta distinta.
-4. `Runtime → Run all`.
-5. Se te pedirá autorizar el acceso a tu Drive — acepta con tu cuenta `@udea.edu.co`.
-6. Los archivos de resultado quedan en la carpeta `output/` dentro de Colab y se pueden descargar desde el panel lateral de archivos.
 
 ---
 
@@ -58,7 +49,7 @@ limpieza-cuentas-koha/
 ├── notebook.ipynb               # Notebook principal
 ├── data/
 │   └── ejemplo_anonimizado.csv  # 20 filas fake para smoke tests sin Drive
-├── output/                      # Generado por el notebook (no versionado)
+├── output/                      # Generado por el notebook (no versionado todavía)
 ├── requirements.txt
 └── .gitignore
 ```
@@ -72,4 +63,4 @@ pip install -r requirements.txt
 jupyter notebook notebook.ipynb
 ```
 
-Cambia `MODO = 'local'` en la primera celda y coloca los CSV en `data/`.
+Cambiar `MODO = 'local'` en la primera celda y coloca los CSV en `data/`.
